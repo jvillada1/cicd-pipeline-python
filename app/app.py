@@ -1,4 +1,4 @@
-# app/app.py 
+# app/app.py
 """
 Módulo principal de la aplicación Flask.
 

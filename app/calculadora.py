@@ -1,5 +1,6 @@
 # app/calculadora.py
 
+
 def sumar(a, b):
     """
     Suma dos números.
