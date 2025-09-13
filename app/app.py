@@ -1,4 +1,11 @@
-# app/app.py
+# app/app.py 
+"""
+Módulo principal de la aplicación Flask.
+
+Este archivo define la configuración de la aplicación y la ruta principal
+para la calculadora, permitiendo realizar operaciones básicas (suma, resta,
+multiplicación y división) mediante un formulario web.
+"""
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
 
