@@ -1,4 +1,10 @@
 # app/calculadora.py
+"""
+Módulo de operaciones matemáticas básicas.
+
+Contiene funciones para realizar suma, resta, multiplicación y división,
+incluyendo validaciones para evitar errores comunes como la división por cero.
+"""
 
 
 def sumar(a, b):
