@@ -178,7 +178,7 @@ Resources:
       Tags:
         - Key: Environment
           Value: !Ref EnvironmentName
-    DependsOn: # Asegura que el listener exista antes de crear el servicio
+    DependsOn: # Asegura que el listener exista antes de crear el servicio x
       - ALBListener
 
 Outputs:
